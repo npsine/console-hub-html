@@ -1,0 +1,46 @@
+.header {
+  background:linear-gradient(135deg, #2C3531, #116466);
+  height:600px;
+  text-align:center;
+}
+
+.bigTitle {
+  font-size:36px;
+  color:#fff;
+  text-align:center;
+  padding-top:100px;
+}
+
+.gameButton {
+  border:1px solid rgba(255,255,255,0.7);
+  border-radius:20px;
+  color:#ebeff1;
+  box-shadow:none;
+  text-shadow:none;
+  background:transparent;
+  transition:background-color 0.25s;
+  outline:none;
+  width:200px;
+  height:110px;
+  font-size:20px;
+  text-align:center;
+  margin:40px;
+  margin-top:250px;
+  padding-top:20px;
+}
+
+.gameIcon {
+  font-size:30px;
+}
+
+.btn-primary:hover {
+  color:#116466;
+  background-color:#D2E8E3;
+  border:0px;
+}
+
+.navbar-light .navbar-brand {
+  font-size:20px;
+  color:#fff;
+}
+
