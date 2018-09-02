@@ -1,17 +1,26 @@
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,500,700);
+@import url(https://fonts.googleapis.com/css?family=Mitr);
 
 body {
-  font-family:'Roboto', Helvetica, Arial, sans-serif;
-  font-weight:300;
+  font-family:'Mitr';
 }
 
 h4{
   font-size: 16px;
 }
+p{
+  color: #fff;
+}
 .header {
   background:linear-gradient(135deg, #051e3e, #651e3e);
   /* background-color: #051e3e; */
   height:350px;
+  text-align:center;
+}
+
+.footer{
+  /* background:linear-gradient(135deg, #051e3e, #651e3e); */
+  background-color: #051e3e;
+  height:200px;
   text-align:center;
 }
 
@@ -195,7 +204,7 @@ h4{
 
 .product-price {
     font-size: 18px;
-    color: #EF8354;
+    color: #651e3e;
     font-weight: 600;
 }
 
@@ -220,5 +229,5 @@ h4{
 }
 
 .product-links a:hover {
-    color: #D9B08C;
+    color: #651e3e;
 }
